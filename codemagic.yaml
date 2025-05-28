@@ -1,1 +1,21 @@
+name: agri_delivery_app
+description: Prototype app for agri product delivery system.
+publish_to: 'none'
 
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.7+3
+  path_provider: ^2.0.11
+  firebase_core: ^2.5.2
+  cloud_firestore: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
